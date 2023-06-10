@@ -1,0 +1,38 @@
+solution-
+  output = ["want", "learn", "python"]
+
+explanation -
+
+line1 -   A0 is a dictionary  created by the help of zip 
+               therefore A0={'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+
+line2 - A1 is a object of range so, A1=(1,10)
+
+
+line 3 - A2 is empty because none the value of A1 is as key in A0
+            so, A2=[]
+
+
+line 4 - in this A3 is list that take the value from A0 on the base of key and store it in a sorted manner
+           so, A3=[1, 2, 3, 4, 5]
+
+
+line 5 - In this A4 is the list which take the elements from A1 based on if they are present in A3 or not .
+          therefore A=[1,2,3,4,5]
+
+
+line 6 - A5 is the dictionary which keys are the values of A1 and its value is the square of the value of A1 
+
+
+line 7 - A7 applies a lambda function to the list's items using the reduce() method from the functools package [10, 23, -45, 33]. The lambda function only involves adding two values.
+          A7 is finally worth 21 (10 + 23 - 45 + 33).
+
+
+
+line 8 - A8 applies a lambda function to each item in the list [1, 2, 3, 4] using the map() method. 
+         Each value is multiplied by two by the lambda function. A map object is what A8's final value is: "map object at 0x..."
+
+
+
+line 9 - A9 filters the elements of the list ["I", "want", "to", "learn", "python"] using the filter() function depending on the length of each 
+          entry being more than 3. Each string's length is checked by the lambda function. A9's final value is a filter object: 0x...> filter object

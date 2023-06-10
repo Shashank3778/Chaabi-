@@ -1,0 +1,27 @@
+soultion 
+
+f(2):
+
+The function is called with x = 2 and the default list l is used.
+It appends 0*0 and 1*1 to the list l.
+The contents of l are printed: [0, 1].
+
+Output: [0, 1].
+
+
+f(3, [3, 2, 1]):
+
+The function is called with x = 3 and the list [3, 2, 1] is provided as an argument.
+It appends 0*0, 1*1, and 2*2 to the provided list.
+The contents of the list are printed: [3, 2, 1, 0, 1, 4].
+
+Output: [3, 2, 1, 0, 1, 4].
+
+
+f(3):
+
+The function is called with x = 3 without providing a new list.
+Since the default value for l is a mutable object (an empty list []), it retains its state from the previous calls.
+It appends 0*0, 1*1, and 2*2 to the existing list.
+The contents of the list are printed: [0, 1, 4, 0, 1, 4].
+Output: [0, 1, 4, 0, 1, 4].
